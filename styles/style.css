@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Banner section styles */
+.banner-section {
+    background-image: url('../images/banner/banner1.png');
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    text-align: right;
+}
+
+.banner-info {
+    padding-top: 150px;
+    padding-right: 100px;
+
+    width: 100%;
+}
+
+.banner-title {
+
+    font-family: 'Work Sans', sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+
+}
+
+.banner-description {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.contact-btn{
+    padding:16px 30px;
+    color:white;
+    background-color:orange;
+    border:none;
+    border-radius: 5px;
+    font-size: 18px;
+}
+.button-section{
+    margin-top:20px;
+}
+/*  */
+.personal-info{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: red;
+    align-items: center;
+}
+.img-content{
+    
+    
+}
