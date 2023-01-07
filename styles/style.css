@@ -13,7 +13,7 @@
     height: 100vh;
     display: flex;
     text-align: right;
-    background-size: auto;
+    background-size:cover;
 }
 
 .banner-info {
