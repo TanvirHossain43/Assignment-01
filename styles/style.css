@@ -1,27 +1,26 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Work Sans', sans-serif;
 }
 
-/* Banner section styles */
+/*Header Banner section styles */
 .banner-section {
     background-image: url('../images/banner/banner1.png');
     width: 100%;
     height: 100vh;
     display: flex;
     text-align: right;
+    background-size: contain;
 }
 
 .banner-info {
     padding-top: 150px;
     padding-right: 100px;
-
     width: 100%;
 }
 
 .banner-title {
-
-    font-family: 'Work Sans', sans-serif;
     font-size: 60px;
     font-weight: 700;
 
@@ -33,27 +32,187 @@
     margin-top: 10px;
 }
 
-.contact-btn{
-    padding:16px 30px;
-    color:white;
-    background-color:orange;
-    border:none;
+.contact-btn {
+    padding: 16px 30px;
+    color: white;
+    background-color: orange;
+    border: none;
     border-radius: 5px;
     font-size: 18px;
 }
-.button-section{
-    margin-top:20px;
+
+.button-section {
+    margin-top: 20px;
 }
-/*  */
-.personal-info{
+
+/*Main section personal styles */
+
+.personal-info {
     height: 100vh;
     width: 100%;
     display: flex;
-    justify-content: space-between;
-    background-color: red;
+    justify-content: space-around;
     align-items: center;
+
 }
-.img-content{
-    
-    
+
+.title-des-container {
+    margin-left: 200px;
+    margin-right: 100px;
+}
+
+#person-img {
+    width: 400px;
+}
+
+.image-container {
+    width: 50%;
+    margin-left: 100px;
+    padding-left: 50px;
+    background-colo;
+}
+
+.personal-title {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+
+}
+
+.personal-description {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 10px;
+    color: dark;
+}
+
+.info-container {
+    margin-top: 10px;
+}
+
+.info-container p {
+    margin-bottom: 10px;
+   
+}
+
+.check-item {
+    color: red;
+}
+
+/* plan styles */
+
+.plan-section {
+    display: flex;
+    justify-content: space-around;
+    padding: 0px 150px;
+}
+
+.plan-icon {
+    width: 60px;
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.plan-title {
+    text-align: center;
+    font-weight: 600;
+    font-size: 40px;
+    font-family: 'Work Sans', sans-serif;
+    color: dark;
+    margin-bottom: 50px;
+}
+
+.plan-info {
+    text-align: center;
+
+}
+
+.contact-container {
+    width: 900px;
+    margin: 60px auto;
+}
+
+.contact-section {
+    background-image: url('../images/gradient1.png'), url('../images/watch.png');
+    height: 40vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+
+.contact-title {
+    color: white;
+    padding: 30px;
+    font-family: 'Work Sans', sans-serif;
+    line-height: 30px;
+}
+
+.primary-btn {
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    color: orange;
+    font-weight: 700;
+    font-size: 20px;
+
+}
+
+.call-btn {
+    margin-left: 30px;
+    padding: 20px 30px;
+}
+
+/* footer styles */
+
+.footer-container {
+    height: 40vh;
+    background-color: black;
+    color: white;
+}
+
+.footer-section {
+    display: flex;
+    padding: 30px;
+    margin-left: 200px;
+}
+
+.future-div {
+    width: 40%;
+}
+
+.subscribe-div {
+    width: 50%;
+    margin-left: 100px;
+}
+
+.footer-title {
+    font-weight: 600;
+    font-size: 30px;
+    font-family: 'Work Sans', sans-serif;
+    margin-bottom: 15px;
+}
+
+.future-div p {
+    margin-bottom: 15px;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 15px;
+}
+
+.icon-div img {
+    width: 25px;
+    margin-left: 5px;
+
+}
+
+.email-field {
+    padding: 10px 20px;
+    background: none;
+    width: 250px;
+    border-radius: 5px;
+    border: 1px solid white;
+    margin-bottom: 10px;
+
 }
