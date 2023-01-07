@@ -5,13 +5,15 @@
 }
 
 /*Header Banner section styles */
+
 .banner-section {
-    background-image: url('../images/banner/banner1.png');
+    background-image: url('../images/banner/banner2.png');
     width: 100%;
+    background-repeat: no-repeat;
     height: 100vh;
     display: flex;
     text-align: right;
-    background-size: contain;
+    background-size: auto;
 }
 
 .banner-info {
@@ -93,7 +95,7 @@
 
 .info-container p {
     margin-bottom: 10px;
-   
+
 }
 
 .check-item {
